@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	setlocale(0, "");
+	int num;
+	int i;
+	cout << "Введите число N" << endl;
+	cin >> num;
+	for (i = num; i > 0; i--) {
+		if (num % i == 0) {
+			cout << "Делитель: " << i << endl;
+		}
+	}
+	return 0;
+}

@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	setlocale(0, "");
+	long long fuck = 1;
+	for (int i = 1; i <= 20; i++) {
+		fuck *= i;
+	}
+		cout << "Факториал числа 20 равен: " << fuck << endl;
+
+		return 0;
+
+	}
+
+
